@@ -4,7 +4,95 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfPeople",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "storePeople",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +121,11 @@
 	},
 	"sources": {
 		"SimpleStorage.sol": {
-			"keccak256": "0xadcfee6d7a686c385d9968f01663c73a6381602038a7d854fa02360c79d88d6c",
+			"keccak256": "0xffd920fce218b838b08eb007a45f4812f6427c893cdf71d17097aafca3f47eec",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3cdb7811b1351935836d1fe2c6b8e601426d2e594b59a354bb850946ab8ccc7e",
-				"dweb:/ipfs/QmenfUKEs1uuxcLsB8BKBRkHPgAHkzG8sAZbpTxjMaT1D7"
+				"bzz-raw://12b91487892da8f948049b549151e99a0b2c1a85bc499c61d7639b357476b9f4",
+				"dweb:/ipfs/QmNzBhgSHHgbp7KuvStAvGtygZn3tVexAbUSXuHoCgi9Mg"
 			]
 		}
 	},
